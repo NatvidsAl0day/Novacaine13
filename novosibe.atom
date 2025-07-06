@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://stirlingtimepieces.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://stirlingtimepieces.com/collections/timepieces.atom"/>
+  <title>Novacaine</title>
+  <updated>2025-01-31T18:59:42+00:00</updated>
+  <author>
+    <name>Novacaine</name>
+  </author>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/8698204749973</id>
+    <published>2025-01-31T18:59:42+00:00</published>
+    <updated>2025-01-31T18:59:42+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/durrant-arctic-white"/>
+    <title>Durrant - Arctic White</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/DURRANT_-_BLACK_CASE_with_WHITE_DIAL_-_FRONT_ON_-_RUBBER_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            425.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">The heroic actions of the WW2 commando raids inspired our Durrant watch, where soldiers from British and Commonwealth forces were often sent behind enemy lines under the cover of darkness to destroy key infrastructure. We wanted to create a timepiece that embodied the daring actions of those that went before us.</span></p>
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">The 42mm DLC coated case encapsulates a dial filled with dark shades and tones that represent the early WW2 night operations. The oversized indices and grey hands are filled with Super-LumiNova which makes the dial clear and easy to read at all hours. The handset is beautifully finished with a crisp red outlining to the seconds hand that allows you to track H-hour with precision. Its casing is complemented by a ceramic dive bezel that acts as a nod to the aquatic operations these raids typically came from.</span></p>
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Powered by the reliable and respected NH35 automatic movement, you can be confident that this watch will perform under all climates and conditions.</span><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"> The integrated strap keeps the watch close to the wrist to prevent it snagging on modern day wet suits or clothing, whilst the 316L stainless steel hardware is DLC coated to enhance durability.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>Durrant</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/8698204749973</id>
+      <title>Rubber Strap &amp; Black Zulu Style Strap</title>
+      <s:price currency="GBP">425.00</s:price>
+      <s:sku>ST-DURARCWHI-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/8698204618901</id>
+    <published>2025-01-31T18:59:41+00:00</published>
+    <updated>2025-01-31T18:59:41+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/upham-arctic-white"/>
+    <title>Upham - Arctic White</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/STIRLING_-_NEW_UPHAM_-_WHITE_-_FRONT_ON_-_BRACELET_-_WEB_2_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            550.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Introducing The Upham. A sleek and sophisticated metal bracelet GMT. Crafted with precision and style, this timepiece is perfect for the modern soldier.</p>
+<p>The stainless steel bracelet provides both comfort and durability, while the scratch-resistant sapphire crystal protects the bold and clear dial. The GMT function allows you to keep track of multiple time zones simultaneously, making it an ideal choice for those overseas or contractors working abroad.</p>
+<p>Powered by a reliable NH34 automatic movement, this watch will keep you on time with pinpoint precision. With a water resistance rating of up to 200 metres, it’s as comfortable on land as it is in sea.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>GMT</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/8698204618901</id>
+      <title>Steel Bracelet &amp; Black Zulu Strap</title>
+      <s:price currency="GBP">550.00</s:price>
+      <s:sku>ST-UPHARCWHI-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/8698204258453</id>
+    <published>2025-01-31T18:59:40+00:00</published>
+    <updated>2025-01-31T18:59:40+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/burton-arctic-white"/>
+    <title>Burton - Arctic White</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/BURTON_WHITE_DIAL_-_FRONT_ON_-_zulu_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            225.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><br></span></p>
+<p><span style="font-weight: 400;">The Burton is a classic field watch that has been designed for simplicity and durability. The lightweight and streamline stainless steel case will leave you forgetting it’s on your wrist. At 38mm its sleek design allows it to be hidden underneath the cuff without snagging on clothing.<br><br></span><span style="font-weight: 400;">The sleek case style is a subtle nod to the issued British Army watch which one of our founders used on operations in Afghanistan during the early years of his career.<br><br></span><span style="font-weight: 400;">The first model in the Stirling range to use a quartz movement, you can be confident you are in safe hands with the Swiss Ronda 715 movement. Highly respected for its accuracy and robustness, its pin point accuracy is ideal for those who rely on precision.<br><br></span><span style="font-weight: 400;">The Burton ships on a hard wearing yet soft leather strap accompanied by a Stirling branded stainless steel buckle. If leather isn’t your look, each timepiece is provided with an additional NATO strap that can easily be interchanged.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:burton-specifications</s:tag>
+    <s:tag>__tab2:why-the-burton</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>field watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/8698204258453</id>
+      <title>Leather Strap &amp; Black Classic NATO Strap</title>
+      <s:price currency="GBP">225.00</s:price>
+      <s:sku>ST-BURARCWHI-BLK</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/8665215697045</id>
+    <published>2024-12-15T19:00:54+00:00</published>
+    <updated>2024-12-15T19:00:54+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/burton-blackout"/>
+    <title>Burton - Blackout</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/BURTON_FRONT_ON_-_BLACKOUT_-_BLACK_ZULU.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            225.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">The Burton is a classic field watch that has been designed for simplicity and durability. The lightweight and streamline stainless steel case will leave you forgetting it’s on your wrist. At 38mm its sleek design allows it to be hidden underneath the cuff without snagging on clothing.<br><br></span><span style="font-weight: 400;">The sleek case style is a subtle nod to the issued British Army watch which one of our founders used on operations in Afghanistan during the early years of his career.<br><br></span><span style="font-weight: 400;">The first model in the Stirling range to use a quartz movement, you can be confident you are in safe hands with the Swiss Ronda 715 movement. Highly respected for its accuracy and robustness, its pin point accuracy is ideal for those who rely on precision.<br><br></span><span style="font-weight: 400;">The Burton ships on a hard wearing yet soft leather strap accompanied by a Stirling branded stainless steel buckle. If leather isn’t your look, each timepiece is provided with an additional NATO strap that can easily be interchanged.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:burton-specifications</s:tag>
+    <s:tag>__tab2:why-the-burton</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>field watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/8665215697045</id>
+      <title>Leather Strap &amp; Black Classic NATO Strap</title>
+      <s:price currency="GBP">225.00</s:price>
+      <s:sku>ST-BURBLKOUT-BLK</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/8642307719317</id>
+    <published>2024-10-31T15:29:17+00:00</published>
+    <updated>2024-10-31T15:29:17+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/upham-steel-black"/>
+    <title>Upham - Steel/Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/STIRLING_-_NEW_UPHAM_-_BLACK_-_FRONT_ON_-_BRACELET_-_WEB_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            550.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Introducing The Upham. A sleek and sophisticated metal bracelet GMT. Crafted with precision and style, this timepiece is perfect for the modern soldier.</p>
+<p>The stainless steel bracelet provides both comfort and durability, while the scratch-resistant sapphire crystal protects the bold and clear dial. The GMT function allows you to keep track of multiple time zones simultaneously, making it an ideal choice for those overseas or contractors working abroad.</p>
+<p>Powered by a reliable NH34 automatic movement, this watch will keep you on time with pinpoint precision. With a water resistance rating of up to 200 metres, it’s as comfortable on land as it is in sea.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>GMT</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/8642307719317</id>
+      <title>Steel Bracelet &amp; Black Zulu Strap</title>
+      <s:price currency="GBP">550.00</s:price>
+      <s:sku>ST-UPHSTEBLK-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/8615522533525</id>
+    <published>2024-10-04T13:54:19+01:00</published>
+    <updated>2024-10-04T13:54:19+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/jarvis-steel"/>
+    <title>Jarvis - Steel</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/STIRLING_JARVIS_STEEL_FRONTON_BLACKRUBBER.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            475.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Forged for operations, The Jarvis is a tactical 42mm GMT dive watch built to perform in the harshest environments. Designed, developed, and tested alongside serving soldiers, this timepiece combines military functionality with rugged durability.<br><br>Powered by the trusted NH34 automatic movement, The Jarvis delivers accurate multi-time zone tracking, essential for military personnel and contractors operating across borders. The dial, inspired by the explosive det cord found in any breachers kit, features distinctive rings, a nod to its roots in military design.<br><br>Equipped with a count-up dive bezel and protected by scratch-resistant sapphire crystal, The Jarvis is built to withstand the toughest conditions. Its 316L stainless steel case and rubber strap ensure resilience without compromising on comfort. With a water resistance rating of up to 300 meters, this watch is ready for any deployment, whether on land or sea.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>GMT</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/8615522533525</id>
+      <title>Rubber Strap &amp; Black Zulu Strap</title>
+      <s:price currency="GBP">475.00</s:price>
+      <s:sku>ST-JARSTE-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/8615508410517</id>
+    <published>2024-10-04T13:53:39+01:00</published>
+    <updated>2024-10-04T13:53:39+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/jarvis-black"/>
+    <title>Jarvis - Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/STIRLING_JARVIS_BLACK_FRONTON_BLACKRUBBER.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            475.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Forged for operations, The Jarvis is a tactical 42mm GMT dive watch built to perform in the harshest environments. Designed, developed, and tested alongside serving soldiers, this timepiece combines military functionality with rugged durability.<br><br>Powered by the trusted NH34 automatic movement, The Jarvis delivers accurate multi-time zone tracking, essential for military personnel and contractors operating across borders. The dial, inspired by the explosive det cord found in any breachers kit, features distinctive rings, a nod to its roots in military design.<br><br>Equipped with a count-up dive bezel and protected by scratch-resistant sapphire crystal, The Jarvis is built to withstand the toughest conditions. Its 316L stainless steel case and rubber strap ensure resilience without compromising on comfort. With a water resistance rating of up to 300 meters, this watch is ready for any deployment, whether on land or sea.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>GMT</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/8615508410517</id>
+      <title>Rubber Strap &amp; Black Zulu Strap</title>
+      <s:price currency="GBP">475.00</s:price>
+      <s:sku>ST-JARBLK-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/8124052275349</id>
+    <published>2024-01-16T18:59:28+00:00</published>
+    <updated>2024-01-16T18:59:28+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/durrant-black-white"/>
+    <title>Durrant - Black/White</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/Stirling-DurrantWatch-BLACK_WHITEBEZEL-FRONTON-BLACKSTRAPV2_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            425.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">The heroic actions of the WW2 commando raids inspired our Durrant watch, where soldiers from British and Commonwealth forces were often sent behind enemy lines under the cover of darkness to destroy key infrastructure. We wanted to create a timepiece that embodied the daring actions of those that went before us.</span></p>
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">The 42mm DLC coated case encapsulates a dial filled with dark shades and tones that represent the early WW2 night operations. The oversized indices and grey hands are filled with Super-LumiNova which makes the dial clear and easy to read at all hours. The handset is beautifully finished with a crisp red outlining to the seconds hand that allows you to track H-hour with precision. Its casing is complemented by a ceramic dive bezel that acts as a nod to the aquatic operations these raids typically came from.</span></p>
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Powered by the reliable and respected NH35 automatic movement, you can be confident that this watch will perform under all climates and conditions.</span><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"> The integrated strap keeps the watch close to the wrist to prevent it snagging on modern day wet suits or clothing, whilst the 316L stainless steel hardware is DLC coated to enhance durability.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>Durrant</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/8124052275349</id>
+      <title>Rubber Strap &amp; Black Zulu Style Strap</title>
+      <s:price currency="GBP">425.00</s:price>
+      <s:sku>ST-DURBLKWHI-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/8124053094549</id>
+    <published>2024-01-16T18:59:21+00:00</published>
+    <updated>2024-01-16T18:59:21+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/durrant-steel"/>
+    <title>Durrant - Steel</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/Stirling-DurrantWatch-STEEL-FRONTON-BLACKSTRAPV2_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            425.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">The heroic actions of the WW2 commando raids inspired our Durrant watch, where soldiers from British and Commonwealth forces were often sent behind enemy lines under the cover of darkness to destroy key infrastructure. We wanted to create a timepiece that embodied the daring actions of those that went before us.</span></p>
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">The 42mm DLC coated case encapsulates a dial filled with dark shades and tones that represent the early WW2 night operations. The oversized indices and grey hands are filled with Super-LumiNova which makes the dial clear and easy to read at all hours. The handset is beautifully finished with a crisp red outlining to the seconds hand that allows you to track H-hour with precision. Its casing is complemented by a ceramic dive bezel that acts as a nod to the aquatic operations these raids typically came from.</span></p>
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Powered by the reliable and respected NH35 automatic movement, you can be confident that this watch will perform under all climates and conditions.</span><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"> The integrated strap keeps the watch close to the wrist to prevent it snagging on modern day wet suits or clothing, whilst the 316L stainless steel hardware is DLC coated to enhance durability.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>Durrant</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/8124053094549</id>
+      <title>Rubber Strap &amp; Black Zulu Style Strap</title>
+      <s:price currency="GBP">425.00</s:price>
+      <s:sku>ST-DURSTE-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7871587614869</id>
+    <published>2023-08-03T18:56:18+01:00</published>
+    <updated>2023-08-03T18:56:18+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/fraser-steel"/>
+    <title>Fraser - Steel</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/2023.07.17StirlingWatch-FRASERSTEEL-FrontOn_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            350.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span data-mce-fragment="1">The Fraser is the ultimate companion for military divers and underwater enthusiasts alike. Engineered to perform flawlessly at extraordinary depths of up to 300 metres, this cutting-edge timepiece features a built-in Helium escape valve allowing it to withstand the most demanding underwater missions.</span><br data-mce-fragment="1"><br data-mce-fragment="1"><span data-mce-fragment="1">Its rugged case is constructed from premium 316L stainless steel which is renowned for its exceptional corrosion resistance and strength. This protects the highly accurate and durable Swiss movement from harsh conditions, making the Fraser the ultimate ally in any aquatic adventure.</span><br data-mce-fragment="1"><br data-mce-fragment="1"><span data-mce-fragment="1">The oversized hands and thick indices are filled with Swiss Super-LumiNova to allow for effortless readability in low light conditions. The long lasting glow will assist you through night operations or in the depths of the ocean.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7871587614869</id>
+      <title>Rubber Strap &amp; Grey Classic Military Strap</title>
+      <s:price currency="GBP">350.00</s:price>
+      <s:sku>ST-FRASTE-GRY</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7871587451029</id>
+    <published>2023-08-03T18:55:43+01:00</published>
+    <updated>2023-08-03T18:55:43+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/fraser-black"/>
+    <title>Fraser - Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/2023.07.17StirlingWatch-FRASERBLACK-FrontOn_3c7214c7-3856-486b-94d9-08fa74f85507.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            350.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span data-mce-fragment="1">The Fraser is the ultimate companion for military divers and underwater enthusiasts alike. Engineered to perform flawlessly at extraordinary depths of up to 300 metres, this cutting-edge timepiece features a built-in Helium escape valve allowing it to withstand the most demanding underwater missions.</span><br data-mce-fragment="1"><br data-mce-fragment="1"><span data-mce-fragment="1">Its rugged case is constructed from premium 316L stainless steel which is renowned for its exceptional corrosion resistance and strength. Whilst a DLC coating ensures the watch is more resistant to scratches, oxidation and harsh temperatures. Together this protects the highly accurate and durable Swiss movement from harsh conditions, making the Fraser the ultimate ally in any aquatic adventure.</span><br data-mce-fragment="1"><br data-mce-fragment="1"><span data-mce-fragment="1">The oversized hands and thick indices are filled with Swiss Super-LumiNova to allow for effortless readability in low light conditions. The long lasting glow will assist you through night operations or in the depths of the ocean.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7871587451029</id>
+      <title>Rubber Strap &amp; Black Zulu Strap</title>
+      <s:price currency="GBP">350.00</s:price>
+      <s:sku>ST-FRABLK-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7934061838485</id>
+    <published>2023-07-04T20:43:48+01:00</published>
+    <updated>2023-07-04T20:43:48+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/upham-black"/>
+    <title>Upham - Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/StirlingWatch-UPHAMAUTOBLACK-FRONTON_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            550.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Introducing The Upham. A sleek and sophisticated metal bracelet GMT. Crafted with precision and style, this timepiece is perfect for the modern soldier.</p>
+<p>The stainless steel bracelet provides both comfort and durability, while the scratch-resistant sapphire crystal protects the bold and clear dial. The GMT function allows you to keep track of multiple time zones simultaneously, making it an ideal choice for those overseas or contractors working abroad.</p>
+<p>Powered by a reliable NH34 automatic movement, this watch will keep you on time with pinpoint precision. With a water resistance rating of up to 200 metres, it’s as comfortable on land as it is in sea.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>GMT</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7934061838485</id>
+      <title>Steel Bracelet &amp; Black Zulu Strap</title>
+      <s:price currency="GBP">550.00</s:price>
+      <s:sku>ST-UPHBLK-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7934061740181</id>
+    <published>2023-07-04T20:43:47+01:00</published>
+    <updated>2023-07-04T20:43:47+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/upham-steel"/>
+    <title>Upham - Steel</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/StirlingWatch-UPHAMAUTOSTEEL-FRONTON_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            550.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Introducing The Upham. A sleek and sophisticated metal bracelet GMT. Crafted with precision and style, this timepiece is perfect for the modern soldier.</p>
+<p>The stainless steel bracelet provides both comfort and durability, while the scratch-resistant sapphire crystal protects the bold and clear dial. The GMT function allows you to keep track of multiple time zones simultaneously, making it an ideal choice for those overseas or contractors working abroad.</p>
+<p>Powered by a reliable NH34 automatic movement, this watch will keep you on time with pinpoint precision. With a water resistance rating of up to 200 metres, it’s as comfortable on land as it is in sea.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>GMT</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7934061740181</id>
+      <title>Steel Bracelet &amp; Black Zulu Strap</title>
+      <s:price currency="GBP">550.00</s:price>
+      <s:sku>ST-UPHSTE-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7871587025045</id>
+    <published>2023-05-07T18:58:29+01:00</published>
+    <updated>2023-05-07T18:58:29+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/upham-quartz-steel"/>
+    <title>Upham Quartz - Steel</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/StirlingWatch-UPHAMSTEEL-FRONTON.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            450.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Introducing The Upham. A sleek and sophisticated metal bracelet GMT. Crafted with precision and style, this timepiece is perfect for the modern soldier.</p>
+<p>The stainless steel bracelet provides both comfort and durability, while the scratch-resistant sapphire crystal protects the bold and clear dial. The GMT function allows you to keep track of multiple time zones simultaneously, making it an ideal choice for those overseas or contractors working abroad.</p>
+<p>Powered by a reliable Swiss Ronda quartz movement, this watch will keep you on time with pinpoint precision. With a water resistance rating of up to 200 metres, it’s as comfortable on land as it is in sea.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>GMT</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7871587025045</id>
+      <title>Steel Bracelet &amp; Black Zulu Strap</title>
+      <s:price currency="GBP">450.00</s:price>
+      <s:sku>ST-UPHQUASTE-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7871586140309</id>
+    <published>2023-05-07T18:58:15+01:00</published>
+    <updated>2023-05-07T18:58:15+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/upham-quartz-black"/>
+    <title>Upham Quartz - Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/StirlingWatch-UPHAMBLACK-FRONTON.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            450.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Introducing The Upham. A sleek and sophisticated metal bracelet GMT. Crafted with precision and style, this timepiece is perfect for the modern soldier.</p>
+<p>The stainless steel bracelet provides both comfort and durability, while the scratch-resistant sapphire crystal protects the bold and clear dial. The GMT function allows you to keep track of multiple time zones simultaneously, making it an ideal choice for those overseas or contractors working abroad.</p>
+<p>Powered by a reliable Swiss Ronda quartz movement, this watch will keep you on time with pinpoint precision. With a water resistance rating of up to 200 metres, it’s as comfortable on land as it is in sea.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>GMT</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7871586140309</id>
+      <title>Steel Bracelet &amp; Black Zulu Strap</title>
+      <s:price currency="GBP">450.00</s:price>
+      <s:sku>ST-UPHQUABLK-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7795044548757</id>
+    <published>2023-02-07T19:11:43+00:00</published>
+    <updated>2023-02-07T19:11:43+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/brunt-quartz-steel"/>
+    <title>Brunt Quartz - Steel</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/StirlingWatch-BruntQUARTZ-STEEL-FRONTON.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            325.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>Robust, reliable and unmatched.</strong></p>
+<p>The Brunt has taken into consideration functionality, build quality and usability as its basic core value.<br><br>Powered by the reliable and respected Swiss Ronda quartz movement you can be confident that this watch will perform under all climates and conditions. Complemented by a luminous green bezel and face, it makes operating at night easy and effective. Our stainless steel housing will allow the watch to enter up to 200m of water ensuring its suitable for all types of operator.</p>
+<p>All watches come protected in our custom Novacaine tough box. Secured within high density foam and sealed inside its durable plastic casing, it keeps your watch protected from dust, water and other hazardous materials.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:brunt-specifications</s:tag>
+    <s:tag>__tab2:why-the-brunt</s:tag>
+    <s:tag>Brunt</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7795044548757</id>
+      <title>Rubber Strap &amp; Black Zulu Style Strap</title>
+      <s:price currency="GBP">325.00</s:price>
+      <s:sku>ST-BRUQUASTE-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7795043926165</id>
+    <published>2023-02-07T19:11:33+00:00</published>
+    <updated>2023-02-07T19:11:33+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/brunt-quartz-black"/>
+    <title>Brunt Quartz - Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/StirlingWatch-BruntQUARTZ-BLACK-FRONTON.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            325.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>Robust, reliable and unmatched.</strong></p>
+<p>The Brunt has taken into consideration functionality, build quality and usability as its basic core value. <br><br>Powered by the reliable and respected Swiss Ronda quartz movement, you can be confident that this watch will perform under all climates and conditions. Complemented by a luminous green bezel and face, it makes operating at night easy and effective. Our black stainless steel housing will allow the watch to enter up to 200m of water ensuring its suitable for all types of operator.</p>
+<p>All watches come protected in our custom Novacaine tough box. Secured within high density foam and sealed inside its durable plastic casing, it keeps your watch protected from dust, water and other hazardous materials.</p>
+<div style="text-align: center;"><br></div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:brunt-specifications</s:tag>
+    <s:tag>__tab2:why-the-brunt</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>Brunt</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7795043926165</id>
+      <title>Rubber Strap &amp; Black Zulu Style Strap</title>
+      <s:price currency="GBP">325.00</s:price>
+      <s:sku>ST-BRUQUABLK-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7747968565397</id>
+    <published>2022-12-09T18:57:33+00:00</published>
+    <updated>2022-12-09T18:57:33+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/durrant-black"/>
+    <title>Durrant - Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/Stirling-DurrantWatch-FRONTON_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            425.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">The heroic actions of the WW2 commando raids inspired our Durrant watch, where soldiers from British and Commonwealth forces were often sent behind enemy lines under the cover of darkness to destroy key infrastructure. We wanted to create a timepiece that embodied the daring actions of those that went before us.</span></p>
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">The 42mm DLC coated case encapsulates a dial filled with dark shades and tones that represent the early WW2 night operations. The oversized indices and grey hands are filled with SuperLuminova which makes the dial clear and easy to read at all hours. The handset is beautifully finished with a crisp red outlining to the seconds hand that allows you to track H-hour with precision. Its casing is complemented by a ceramic dive bezel that acts as a nod to the aquatic operations these raids typically came from.</span></p>
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Powered by the reliable and respected NH35 automatic movement, you can be confident that this watch will perform under all climates and conditions.</span><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"> The integrated strap keeps the watch close to the wrist to prevent it snagging on modern day wet suits or clothing, whilst the 316L stainless steel hardware is DLC coated to enhance durability.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>22mm lug width</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>Durrant</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7747968565397</id>
+      <title>Rubber Strap &amp; Black Zulu Style Strap</title>
+      <s:price currency="GBP">425.00</s:price>
+      <s:sku>ST-DURBLK-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7744100040853</id>
+    <published>2022-11-22T20:23:33+00:00</published>
+    <updated>2022-11-22T20:23:33+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/campbell-quartz-steel"/>
+    <title>Campbell Quartz - Steel</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/StirlingWatch-CampbellQUARTZ-STEEL-FRONTON.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            325.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><strong data-mce-fragment="1">Robust, reliable and unmatched.</strong></p>
+<p data-mce-fragment="1">The Campbell is a tool watch designed and crafted with inspirations from history's great dive pieces. A robust steel casing ensures that it's up to any task or mission you should put it through. Named after the infamous John Charles “Jock” Campbell, this watch is a piece that deserves any operator or collector's attention.<br><br>Powered by the reliable and respected Swiss Ronda 515 quartz movement, you can be confident that this watch will perform under all climates and conditions. Complemented by a luminous blue bezel and face, it makes operating at night or at depths easy and effective. The Campbell's steel casing is pressure tested up to 20 ATM meaning it’s suitable for recreational diving depths or working in and around water.<br><br>All watches come protected in our custom Novacaine tough box. Secured within high density foam and sealed inside its durable plastic casing, it keeps your watch protected from dust, water and other hazardous materials.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:campbell-specifications</s:tag>
+    <s:tag>__tab2:why-the-campbell</s:tag>
+    <s:tag>Campbell</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7744100040853</id>
+      <title>Rubber Strap &amp; Black Zulu Style Strap</title>
+      <s:price currency="GBP">325.00</s:price>
+      <s:sku>ST-CAMQUASTE-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7744097878165</id>
+    <published>2022-11-22T20:23:30+00:00</published>
+    <updated>2022-11-22T20:23:30+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/campbell-quartz-black"/>
+    <title>Campbell Quartz - Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/StirlingWatch-CampbellQUARTZ-BLACK-FRONTON.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            325.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><strong data-mce-fragment="1">Robust, reliable and unmatched.</strong></p>
+<p data-mce-fragment="1">The Campbell is a tool watch designed and crafted with inspirations from history's great dive pieces. A robust steel casing ensures that it's up to any task or mission you should put it through.<br><br>Powered by the reliable and respected <span data-mce-fragment="1">Swiss Ronda 515 quartz movement,</span> you can be confident that this watch will perform under all climates and conditions. Complemented by a luminous blue bezel and face, it makes operating at night or at depths easy and effective. The Campbell's steel casing is pressure tested up to 20 ATM meaning it’s suitable for recreational diving depths or working in and around water.<br><br>All watches come protected in our custom Novacaine tough box. Secured within high density foam and sealed inside its durable plastic casing, it keeps your watch protected from dust, water and other hazardous materials.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:campbell-specifications</s:tag>
+    <s:tag>__tab2:why-the-campbell</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>Campbell</s:tag>
+    <s:tag>dive watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7744097878165</id>
+      <title>Rubber Strap &amp; Black Zulu Style Strap</title>
+      <s:price currency="GBP">325.00</s:price>
+      <s:sku>ST-CAMQUABLK-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7506474926229</id>
+    <published>2022-08-11T15:39:52+01:00</published>
+    <updated>2022-08-11T15:39:52+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/burton-steel"/>
+    <title>Burton - Steel</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/FieldWatch-STEEL-NATOSTRAP-FrontOn.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            225.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span data-mce-fragment="1" style="font-weight: 400;">The Burton is a classic field watch that has been designed for simplicity and durability. The lightweight and streamline stainless steel case will leave you forgetting it’s on your wrist. At 38mm its sleek design allows it to be hidden underneath the cuff without snagging on clothing.<br data-mce-fragment="1"><br data-mce-fragment="1">The sleek case style is a subtle nod to the issued British Army watch which one of our founders used on operations in Afghanistan during the early years of his career.<br data-mce-fragment="1"><br data-mce-fragment="1">The first model in the Stirling range to use a quartz movement, you can be confident you are in safe hands with the Swiss Ronda 715 movement. Highly respected for its accuracy and robustness, its pin point accuracy is ideal for those who rely on precision.<br data-mce-fragment="1"><br data-mce-fragment="1">The Burton ships on a hard wearing yet soft leather strap accompanied by a Stirling branded stainless steel buckle. If leather isn’t your look, each timepiece is provided with an additional NATO strap that can easily be interchanged.<br></span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:burton-specifications</s:tag>
+    <s:tag>__tab2:why-the-burton</s:tag>
+    <s:tag>field watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7506474926229</id>
+      <title>Leather Strap &amp; Grey Classic NATO Strap</title>
+      <s:price currency="GBP">225.00</s:price>
+      <s:sku>ST-BURSTE-GRY</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7506475188373</id>
+    <published>2022-08-11T15:39:41+01:00</published>
+    <updated>2022-08-11T15:39:41+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/burton-bronze"/>
+    <title>Burton - Bronze</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/StirlingBurtonWatchBronze-GreenNATOStrap_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            225.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><br data-mce-fragment="1">The Burton is a classic field watch that has been designed for simplicity and durability. The lightweight and streamline stainless steel case will leave you forgetting it’s on your wrist. At 38mm its sleek design allows it to be hidden underneath the cuff without snagging on clothing.<br data-mce-fragment="1"><br data-mce-fragment="1">The sleek case style is a subtle nod to the issued British Army watch which one of our founders used on operations in Afghanistan during the early years of his career.<br data-mce-fragment="1"><br data-mce-fragment="1">The first model in the Stirling range to use a quartz movement, you can be confident you are in safe hands with the Swiss Ronda 715 movement. Highly respected for its accuracy and robustness, its pin point accuracy is ideal for those who rely on precision.<br data-mce-fragment="1"><br data-mce-fragment="1">The Burton ships on a hard wearing yet soft leather strap accompanied by a Stirling branded stainless steel buckle. If leather isn’t your look, each timepiece is provided with an additional NATO strap that can easily be interchanged.<br></span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:burton-specifications</s:tag>
+    <s:tag>__tab2:why-the-burton</s:tag>
+    <s:tag>field watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7506475188373</id>
+      <title>Leather Strap &amp; Green Classic NATO Strap</title>
+      <s:price currency="GBP">225.00</s:price>
+      <s:sku>ST-BURBRO-GRE</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7506474533013</id>
+    <published>2022-08-11T15:39:22+01:00</published>
+    <updated>2022-08-11T15:39:22+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/burton-black"/>
+    <title>Burton - Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/StirlingBurtonWatchBlack-BlackNATOStrap_1.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            225.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><br></span></p>
+<p><span style="font-weight: 400;">The Burton is a classic field watch that has been designed for simplicity and durability. The lightweight and streamline stainless steel case will leave you forgetting it’s on your wrist. At 38mm its sleek design allows it to be hidden underneath the cuff without snagging on clothing.<br><br></span><span style="font-weight: 400;">The sleek case style is a subtle nod to the issued British Army watch which one of our founders used on operations in Afghanistan during the early years of his career.<br><br></span><span style="font-weight: 400;">The first model in the Stirling range to use a quartz movement, you can be confident you are in safe hands with the Swiss Ronda 715 movement. Highly respected for its accuracy and robustness, its pin point accuracy is ideal for those who rely on precision.<br><br></span><span style="font-weight: 400;">The Burton ships on a hard wearing yet soft leather strap accompanied by a Stirling branded stainless steel buckle. If leather isn’t your look, each timepiece is provided with an additional NATO strap that can easily be interchanged.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:burton-specifications</s:tag>
+    <s:tag>__tab2:why-the-burton</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>field watches</s:tag>
+    <s:tag>quartz</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7506474533013</id>
+      <title>Leather Strap &amp; Black Classic NATO Strap</title>
+      <s:price currency="GBP">225.00</s:price>
+      <s:sku>ST-BURBLK-BLK</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7503535014037</id>
+    <published>2022-06-24T16:08:12+01:00</published>
+    <updated>2022-06-24T16:08:12+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/gibson-steel"/>
+    <title>Gibson - Steel</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/GibsonWatch-STEEL-FrontOn.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            650.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="UTF-8">
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><strong data-mce-fragment="1"><img src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/new_icon_3e942195-687a-4480-a40d-146e675d61ca_480x480.png" alt="" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/new_icon_3e942195-687a-4480-a40d-146e675d61ca_480x480.png"></strong></span></p>
+<p><span style="font-weight: 400;">The Gibson is a true pilot’s watch that takes inspiration from historical aviation timepieces with a sleek updated design to suit today's skies. Designed and developed with specifications that today's pilots can be confident in, <span data-mce-fragment="1">it was designed for the cockpit but can be worn for any</span><span data-mce-fragment="1"> occasion.</span><br><br></span><span style="font-weight: 400;"></span><span style="font-weight: 400;">The first watch of the Stirling range to feature the SW200 automatic movement, this Swiss made movement is certified for high levels of accuracy at a range of temperatures and finds itself in the top 6% of Swiss movements for accuracy. <br><br></span>The classy stainless steel case design has been produced to fit comfortably on the wrist whilst wearing a flight suit or gloves. Its lightweight feel is perfect for long missions in the sky or prolonged wrist time on the ground. A clear legible dial is complemented with Super-Luminova filled markers and hands meaning operating at low light conditions is effortless. <br></p>
+<p data-mce-fragment="1"><span style="font-weight: 400;">In the development of the Gibson we teamed up with a serving pilot to design and develop a watch that would suit his specifications. At the forefront of our development was design, durability and accuracy. Constant feedback and research saw us tweak and change its design to best suit the requirements. The timepiece<span> </span></span><span style="font-weight: 400;">we have today is<span> </span></span><span style="font-weight: 400;">the result of feedback from numerous hours in the skies and some of the harshest conditions a watch can undergo within a cockpit.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:gibson-specifications</s:tag>
+    <s:tag>__tab2:why-the-gibson</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>Gibson</s:tag>
+    <s:tag>pilot watches</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7503535014037</id>
+      <title>Leather Strap &amp; Black Premium Military Strap</title>
+      <s:price currency="GBP">650.00</s:price>
+      <s:sku>ST-GIBSTE-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://stirlingtimepieces.com/products/7503534686357</id>
+    <published>2022-06-24T15:55:17+01:00</published>
+    <updated>2022-06-24T15:55:17+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://stirlingtimepieces.com/products/gibson-black"/>
+    <title>Gibson - Black</title>
+    <s:type>Watches</s:type>
+    <s:vendor>Novacaine</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/products/GibsonWatch-BLACK-FrontOn.jpg"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Novacaine<br>
+        <strong>Type: </strong>Watches<br>
+        <strong>Price: </strong>
+            650.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><strong data-mce-fragment="1"><img data-mce-fragment="1" alt="" src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/new_icon_3e942195-687a-4480-a40d-146e675d61ca_480x480.png" data-mce-selected="1" data-mce-src="https://cdn.shopify.com/s/files/1/0455/0842/7925/files/new_icon_3e942195-687a-4480-a40d-146e675d61ca_480x480.png"><br></strong></span></p>
+<p><span style="font-weight: 400;">The Gibson is a true pilot’s watch that takes inspiration from historical aviation timepieces with a sleek updated design to suit today's skies. Designed and developed with specifications that today's pilots can be confident in, it was designed for the cockpit but can be worn for any occasion.<br><br></span><span style="font-weight: 400;"></span><span style="font-weight: 400;">The first watch of the Stirling range to feature the SW200 automatic movement, this Swiss made movement is certified for high levels of accuracy at a range of temperatures and finds itself in the top 6% of Swiss movements for accuracy. <br><br></span>The classy DLC finished stainless steel case design has been produced to fit comfortably on the wrist whilst wearing a flight suit or gloves. Its lightweight feel is perfect for long missions in the sky or prolonged wrist time on the ground. A clear legible dial is complemented with Super-Luminova filled markers and hands meaning operating at low light conditions is effortless. <br></p>
+<p data-mce-fragment="1"><span style="font-weight: 400;">In the development of the Gibson we teamed up with a serving pilot to design and develop a watch that would suit his specifications. At the forefront of our development was design, durability and accuracy. Constant feedback and research saw us tweak and change its design to best suit the requirements. The timepiece </span><span style="font-weight: 400;">we have today is </span><span style="font-weight: 400;">the result of feedback from numerous hours in the skies and some of the harshest conditions a watch can undergo within a cockpit.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>20mm lug width</s:tag>
+    <s:tag>__tab1:gibson-specifications</s:tag>
+    <s:tag>__tab2:why-the-gibson</s:tag>
+    <s:tag>automatic</s:tag>
+    <s:tag>black watches</s:tag>
+    <s:tag>Gibson</s:tag>
+    <s:tag>pilot watches</s:tag>
+    <s:tag>timepieces</s:tag>
+    <s:variant>
+      <id>https://stirlingtimepieces.com/products/7503534686357</id>
+      <title>Leather Strap &amp; Black Premium Military Strap</title>
+      <s:price currency="GBP">650.00</s:price>
+      <s:sku>ST-GIBBLK-BLK</s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+  </entry>
+</feed>

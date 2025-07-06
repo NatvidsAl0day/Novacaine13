@@ -1,0 +1,806 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"  class="supernova isDefault"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+
+    try {
+      if ('PerformanceObserver' in window) {
+        function isTrackingProhibited() {
+      try {
+        var isEUDomain = /(?:eu.jotform)|(?:jotformeu.com)/.test(window.location.host);
+        var isHipaaDomain = /(?:hipaa.jotform)/.test(window.location.host);
+        var isProhibitedParameterExists = /(?:wfTaskID|PCI_preSubmitRequest|wfTaskType)/.test(window.location.search);
+        var isEditMode = false;
+        var isTrackingProhibited = isEUDomain || isHipaaDomain || isProhibitedParameterExists || isEditMode;
+        return isTrackingProhibited;
+      } catch (e) {
+        console.log(e);
+        return true;
+      }
+    }
+        if (!isTrackingProhibited()) {
+          const debounce = (callback, wait) => {
+      let timeoutId = null;
+      return (...args) => {
+        window.clearTimeout(timeoutId);
+        timeoutId = window.setTimeout(() => {
+          callback(...args);
+        }, wait);
+      };
+    };
+          let capturedScripts = [];
+          const sesApiUrl = /jotform.pro/.test(window.location.host) ? '/API' : 'https://api.jotform.com';
+          const sendTrackedJSCode = debounce(() => {
+            navigator.sendBeacon(sesApiUrl + '/formInitCatchLogger/' + 251323386294459, JSON.stringify({ title: 'FORM_SCRIPT_LOADED', data: capturedScripts, multiple: true }));
+            capturedScripts = [];
+          }, 500);
+
+            const observer = new PerformanceObserver((list) => {
+                const allowedInitiators = ['script', 'css', 'link'];
+                list.getEntries().forEach((entry) => {
+                    const request = entry.responseStart - entry.requestStart;
+                    if (request > 0 && allowedInitiators.includes(entry.initiatorType)) {
+                      const url = new URL(entry.name);
+                      capturedScripts.push(url.pathname);
+                      sendTrackedJSCode();
+                    }
+                });
+            });
+
+            observer.observe({ type: "resource", buffered: true });
+          }
+      }
+    } catch (e) {
+      console.log(e);
+    };
+</script>
+<link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=https%3A%2F%2Fform.jotform.com%2F251323386294459" title="oEmbed Form">
+<link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=https%3A%2F%2Fform.jotform.com%2F251323386294459" title="oEmbed Form">
+<meta property="og:title" content="StoicMorphosis" >
+<meta property="og:url" content="https://submit.jotform.com/251323386294459" >
+<meta property="og:description" content="Please click the link to complete this form." >
+<meta name="slack-app-id" content="AHNMASS8M">
+<meta property="og:image" content="https://cdn.jotfor.ms/assets/img/landing/opengraph.png" />
+<link rel="shortcut icon" href="Scoop.png">
+<link rel="apple-touch-icon" href="Scoop.png">
+<script>
+          var favicon = document.querySelector('link[rel="shortcut icon"]');
+          window.isDarkMode = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if(favicon && window.isDarkMode) {
+              favicon.href = favicon.href.replaceAll('favicon-2021-light%402x.png', 'favicon-2021-dark%402x.png');
+          }
+      </script><link rel="canonical" href="251323386294459.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
+<meta name="HandheldFriendly" content="true" />
+<title>StoicMorphosis</title>
+<link type="text/css" rel="stylesheet" href="css/form-common.css"/>
+<style type="text/css">@media print{*{-webkit-print-color-adjust: exact !important;color-adjust: exact !important;}.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
+<link type="text/css" rel="stylesheet" href="css/5e.css"/>
+<link type="text/css" rel="stylesheet" href="css/payment_styles.css" />
+<link type="text/css" rel="stylesheet" href="css/payment_feature.css" />
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+/*PREFERENCES STYLE*/
+    .form-all {
+      font-family: Inter, sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: block;
+    float: none;
+    text-align: left;
+    width: 100%;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  
+    .form-all {
+      max-width: 752px;
+      width: 100%;
+    }
+  
+    .form-label.form-label-left,
+    .form-label.form-label-right,
+    .form-label.form-label-left.form-label-auto,
+    .form-label.form-label-right.form-label-auto {
+      width: 230px;
+    }
+  
+    .form-all {
+      font-size: 16px
+    }
+  
+  .supernova {
+    background-color: #f3f3fe;
+  }
+  .supernova body {
+    background: transparent;
+  }
+  
+    .supernova .form-all, .form-all {
+      background-color: #ffffff;
+    }
+  
+    .form-all {
+      color: #2c3344;
+    }
+    .form-header-group .form-header {
+      color: #2c3344;
+    }
+    .form-header-group .form-subHeader {
+      color: #2c3344;
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label,
+    span.FITB .qb-checkbox-label,
+    span.FITB .qb-radiobox-label,
+    span.FITB .form-radio label,
+    span.FITB .form-checkbox label,
+    [data-blotid][data-type=checkbox] [data-labelid],
+    [data-blotid][data-type=radiobox] [data-labelid],
+    span.FITB-inptCont[data-type=checkbox] label,
+    span.FITB-inptCont[data-type=radiobox] label {
+      color: #2c3344;
+    }
+    .form-sub-label {
+      color: #464d5e;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-dropdown,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: #ffffff;
+    }
+  
+    .form-line-error {
+      overflow: hidden;
+      transition: none;
+      background-color: #ffd6d6;
+    }
+
+    .form-line-error .form-error-message {
+      background-color: #DC2626;
+      clear: both;
+      float: none;
+    }
+
+    .form-line-error .form-error-arrow {
+      border-bottom-color: #FF3200;
+    }
+
+    .form-line-error input:not(#coupon-input),
+    .form-line-error textarea,
+    .form-line-error .form-validation-error {
+      border: 1px solid #c61515;
+      box-shadow: 0 0 3px #c61515;
+    }
+   
+      
+    .supernova {
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-attachment: fixed;
+      background-position: center top;
+    }
+
+      .supernova, #stage {
+        background-image: none;
+      }
+    
+      .form-all {
+        background-image: none;
+      }
+    /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+    /* Injected CSS Code */
+</style>
+
+<script>window.enableEventObserver=false</script>
+<script src="js/prototype.forms.js" type="text/javascript"></script>
+<script src="js/jotform.forms.js" type="text/javascript"></script>
+<script src="js/punycode-1.4.1.min.js" type="text/javascript" defer></script>
+<script src="js/paymentUtils.js" type="text/javascript"></script>
+<script src="js/validategateways.js" type="text/javascript"></script>
+<!-- <script src="https://cdn.jotfor.ms/s/umd/6f4f8949d45/for-form-branding-footer.js" type="text/javascript" defer></script> -->
+<script src="js/smoothscroll.min.js" type="text/javascript"></script>
+<script src="js/errorNavigation.js" type="text/javascript"></script>
+<script type="text/javascript">	JotForm.newDefaultTheme = true;
+	JotForm.extendsNewTheme = false;
+	JotForm.singleProduct = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+	JotForm.texts = {"confirmEmail":"E-mail does not match","pleaseWait":"Please Wait...","validateEmail":"You need to validate this e-mail","confirmClearForm":"Are you sure you want to clear the form","lessThan":"Your score should be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","required":"This field is required.","requireOne":"At least one field required.","requireEveryRow":"Every row is required.","requireEveryCell":"Every cell is required.","email":"Enter a valid e-mail address","alphabetic":"This field can only contain letters","numeric":"This field can only contain numeric values","alphanumeric":"This field can only contain letters and numbers.","cyrillic":"This field can only contain cyrillic characters","url":"This field can only contain a valid URL","currency":"This field can only contain currency values.","fillMask":"Field value must fill mask.","uploadExtensions":"You can only upload following files:","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","gradingScoreError":"Score total should only be less than or equal to","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","maxDigitsError":"The maximum digits allowed is","minCharactersError":"The number of characters should not be less than the minimum value:","maxCharactersError":"The number of characters should not be more than the maximum value:","freeEmailError":"Free email accounts are not allowed","minSelectionsError":"The minimum required number of selections is ","maxSelectionsError":"The maximum number of selections allowed is ","pastDatesDisallowed":"Date must not be in the past.","dateLimited":"This date is unavailable.","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","ageVerificationError":"You must be older than {minAge} years old to submit this form.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","chooseAFile_infoMessage":"Choose a file","maxFileSize_infoMessage":"Max. file size","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","ccInvalidNumber":"Credit Card Number is invalid.","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingProduct":"Please select at least one product.","ccMissingDonation":"Please enter numeric values for donation amount.","disallowDecimals":"Please enter a whole number.","restrictedDomain":"This domain is not allowed","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","requiredLegend":"All fields marked with * are required and must be filled.","geoPermissionTitle":"Permission Denied","geoPermissionDesc":"Check your browser's privacy settings.","geoNotAvailableTitle":"Position Unavailable","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoTimeoutTitle":"Timeout","geoTimeoutDesc":"Please check your internet connection and try again.","selectedTime":"Selected Time","formerSelectedTime":"Former Time","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","noSlotsAvailable":"No slots available","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","multipleError":"There are {count} errors on this page. Please correct them before moving on.","oneError":"There is {count} error on this page. Please correct it before moving on.","doneMessage":"Well done! All errors are fixed.","invalidTime":"Enter a valid time","doneButton":"Done","reviewSubmitText":"Review and Submit","nextButtonText":"Next","prevButtonText":"Previous","seeErrorsButton":"See Errors","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","soldOut":"Sold Out","justSoldOut":"Just Sold Out","selectionSoldOut":"Selection Sold Out","subProductItemsLeft":"({count} items left)","startButtonText":"START","submitButtonText":"Submit","submissionLimit":"Sorry! Only one entry is allowed. <br> Multiple submissions are disabled for this form.","reviewBackText":"Back to Form","seeAllText":"See All","progressMiddleText":"of","fieldError":"field has an error.","error":"Error"};
+	JotForm.newPaymentUI = true;
+	JotForm.originalLanguage = "en";
+	JotForm.isFormViewTrackingAllowed = true;
+	JotForm.replaceTagTest = true;
+	JotForm.uploadServerURL = "https://upload.jotform.com/upload";
+
+   JotForm.setConditions([{"action":[{"id":"action_1581690116457","visibility":"Hide","isError":false,"field":"10"}],"id":"1581690133174","index":"0","isError":"1","link":"Any","priority":"0","terms":[{"id":"term_1581690116457","field":"17","operator":"isEmpty","value":"","isError":false}],"type":"field"},{"action":[{"id":"action_0_1581690045611","visibility":"Hide","isError":false,"field":"10"}],"id":"1581689801697","index":"1","isError":"1","link":"Any","priority":"1","terms":[{"id":"term_0_1581690045611","field":"17","operator":"equals","value":"Yes","isError":false}],"type":"field"},{"action":[{"field":"11","visibility":"Show","id":"action_1_1581689802691"}],"id":"1581689543679","index":"2","isError":"1","link":"Any","priority":"2","terms":[{"field":"15","operator":"equals","value":"Yes"}],"type":"field"},{"action":[{"field":"18","visibility":"Show","id":"action_0_1581945983644","isError":false}],"id":"1581689543680","index":"3","isError":"1","link":"Any","priority":"3","terms":[{"field":"15","operator":"equals","value":"Yes","id":"term_0_1581945983644","isError":false}],"type":"field"},{"action":[{"field":"10","visibility":"Show","id":"action_3_1581689802691"}],"id":"1581689543681","index":"4","isError":"1","link":"Any","priority":"4","terms":[{"field":"15","operator":"equals","value":"Yes"}],"type":"field"}]);	JotForm.submitError="jumpToFirstError";
+	window.addEventListener('DOMContentLoaded',function(){window.brandingFooter.init({"formID":251323386294459,"campaign":"powered_by_jotform_le","isCardForm":false,"isLegacyForm":true,"formLanguage":"en"})});
+	JotForm.init(function(){
+	/*INIT-START*/
+      productID = {"0":"input_43_1001","1":"input_43_1002","2":"input_43_1003","3":"input_43_1004"};
+      paymentType = "product";
+      JotForm.setCurrencyFormat('IDR',true, 'point');
+      JotForm.totalCounter({"input_43_1001":{"price":"125000","quantityField":"input_43_quantity_1001_0","custom_1":"input_43_custom_1001_1","custom_2":"input_43_custom_1001_2","specialPriceField":"input_43_custom_1001_2","specialPriceList":["125000.00","125000.00","125000.00","125000.00","125000.00","145000.00","155000.00"]},"input_43_1002":{"price":"195000","quantityField":"input_43_quantity_1002_0","custom_1":"input_43_custom_1002_1","custom_2":"input_43_custom_1002_2","specialPriceField":"input_43_custom_1002_2","specialPriceList":["195000.00","195000.00","195000.00","195000.00","195000.00","215000.00","230000.00"]},"input_43_1003":{"price":"0","quantityField":"input_43_quantity_1003_0","custom_1":"input_43_custom_1003_1","custom_2":"input_43_custom_1003_2","specialPriceField":"input_43_custom_1003_2","specialPriceList":["225000.00","225000.00","225000.00","225000.00","225000.00","255000.00","265000.00"]},"input_43_1004":{"price":"45000","quantityField":"input_43_quantity_1004_0","custom_1":"input_43_custom_1004_1"}});
+      $$('.form-product-custom_quantity').each(function(el, i){el.observe('blur', function(){isNaN(this.value) || this.value < 1 ? this.value = '0' : this.value = parseInt(this.value)})});
+      $$('.form-product-custom_quantity').each(function(el, i){el.observe('focus', function(){this.value == 0 ? this.value = '' : this.value})});
+      JotForm.handleProductLightbox();
+if (window.JotForm && JotForm.accessible) $('input_14').setAttribute('tabindex',0);
+      JotForm.alterTexts({"couponApply":"Apply","couponBlank":"Please enter a coupon.","couponChange":"","couponEnter":"Enter coupon","couponExpired":"Coupon is expired. Please try another one.","couponInvalid":"Coupon is invalid.","couponValid":"Coupon is valid.","productListAllText":"All","productListCategoriesText":"Categories:","productListClearSort":"Clear Sort","productListNameAZ":"Name: A to Z","productListNameZA":"Name: Z to A","productListPriceHighest":"Price: High to Low","productListPriceLowest":"Price: Low to High","productListSearchText":"Search","productListSortBy":"Sort By","shippingShipping":"Shipping","taxTax":"Tax","totalSubtotal":"Subtotal","totalTotal":"Total"}, true);
+	/*INIT-END*/
+	});
+
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"stoic","qid":"1","text":"StoicMorphosis","type":"control_head"},{"name":"fullName2","qid":"2","text":"Full Name","type":"control_fullname"},{"name":"email3","qid":"3","subLabel":"example@example.com","text":"E-mail","type":"control_email"},null,{"name":"contactNumber","qid":"5","text":"Contact Number","type":"control_phone"},null,null,null,null,{"name":"shippingAdress","qid":"10","text":"Shipping Adress","type":"control_address"},null,null,null,{"mde":"No","name":"orderNotes","qid":"14","text":"Order Notes (Optional)","type":"control_textarea","wysiwyg":"Disable"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"submit","qid":"38","text":"Buy it Now!","type":"control_button"},null,null,null,null,{"description":"","name":"merch","qid":"43","text":"Merch","type":"control_payment"}]);}, 20); 
+</script>
+</head>
+<body>
+<form class="jotform-form"  action="#" method="post" name="form_251323386294459" id="CustomForm" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="251323386294459" novalidate/><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" /><input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1747139992927" /><input type="hidden" id="submitSource" name="submitSource" value="unknown" /><input type="hidden" id="buildDate" name="buildDate" value="1747139992927" /><input type="hidden" name="uploadServerUrl" value="https://upload.jotform.com/upload" /><input type="hidden" name="eventObserverPayment" value="control_payment" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section" role="presentation">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-large">
+          <div class="header-text httal htvam">
+            <h1 id="header_1" class="form-header" data-component="header">StoicMorphosis</h1>
+            <div id="subHeader_1" class="form-subHeader">Please make sure to fill in the required fields and submit this form to complete your order.</div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line card-2col" data-type="control_payment" id="id_43" data-payment="true"><label class="form-label form-label-top" id="label_43" for="input_43" aria-hidden="false"> Merch </label>
+        <input type="hidden" name="formTitle" value="StoicMorphosis">
+        <div id="cid_43" class="form-input-wide" data-layout="full">
+          <div data-wrapper-react="true">
+            <div data-wrapper-react="true" class="product-container-wrapper">
+              <div class="filter-container"></div><input type="hidden" name="simple_fpc" data-payment_type="payment" data-component="payment1" value="43" /><input type="hidden" name="payment_transaction_uuid" id="paymentTransactionId" /><input type="hidden" name="payment_version" id="payment_version" value="4" /><input type="hidden" name="payment_total_checksum" id="payment_total_checksum" data-component="payment2" /><input type="hidden" name="payment_discount_value" id="payment_discount_value" data-component="payment3" />
+              <div id="image-overlay" class="overlay-content" style="display:none"><img id="current-image" /><span class="lb-prev-button">prev</span><span class="lb-next-button">next</span><span class="lb-close-button">( X )</span><span class="image-overlay-product-container">
+                  <ul class="form-overlay-item" pid="1001" hasicon="false" hasimages="true" iconvalue="">
+                    <li class="image-overlay-image"><img loading="lazy" src="Stoic/1.png" /></li>
+                    
+                  </ul>
+                  <ul class="form-overlay-item" pid="1002" hasicon="false" hasimages="true" iconvalue="">
+                    <li class="image-overlay-image"><img loading="lazy" src="Stoic/4.png" /></li>
+                  </ul>
+                  <ul class="form-overlay-item" pid="1003" hasicon="false" hasimages="true" iconvalue="">
+                    <li class="image-overlay-image"><img loading="lazy" src="Stoic/3.png" /></li>
+                  </ul>
+                  <ul class="form-overlay-item" pid="1004" hasicon="false" hasimages="true" iconvalue="">
+                    <li class="image-overlay-image"><img loading="lazy" src="Stoic/2.png" /></li>
+                  </ul>
+                </span></div>
+              <div data-wrapper-react="true"><span class="form-product-item hover-product-item on_col1 show_image show_option full_img new_ui" categories="non-categorized" pid="1001" aria-labelledby="label_43">
+                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                    <div class="p_col">
+                      <div class="p_checkbox"><input class="form-checkbox  form-product-input" type="checkbox" id="input_43_1001" name="q43_merch[][id]" data-inputname="q43_merch[][id]" readonly="" aria-label="Select Product: T-Shirt" data-is-default-required="false" data-is-default-selected="false" value="1001" />
+                        <div class="checked"></div>
+                        <div class="select_border"></div>
+                      </div>
+                    </div>
+                    <div class="p_image">
+                      <div class="image_area form-product-image-with-options">
+                        <div style="position:absolute;width:100%;height:100%"><img loading="lazy" role="img" aria-label="T-Shirt" alt="T-Shirt Product Image" style="width:100%;height:100%;object-fit:contain" src="Stoic/1.png" /></div>
+                        <div class="image_zoom"></div>
+                      </div>
+                    </div>
+                    <div for="input_43_1001" class="form-product-container"><span data-wrapper-react="true">
+                        <div class="title_description"><span class="form-product-name" id="product-name-input_43_1001">T-Shirt</span><span class="form-product-description" id="product-name-description-input_43_1001"></span></div><span class="form-product-details"><b><span data-wrapper-react="true"><span id="input_43_1001_price">125,000.00</span><span class="currency_abr">IDR</span></span></b></span>
+                      </span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_quantity_1001_0" style="min-height:13px">Quantity</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1001][item_0]" id="input_43_quantity_1001_0" aria-label="Select Quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                          </select></span></span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_custom_1001_1" style="min-height:13px">Color</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1001][item_1]" id="input_43_custom_1001_1" aria-label="Select Color">
+                            <option value="White">White</option>
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Green">Green</option>
+                            <option value="Yellow">Yellow</option>
+                          </select></span></span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_custom_1001_2" style="min-height:13px">Size</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1001][item_2]" id="input_43_custom_1001_2" aria-label="Select Size">
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                            <option value="XXXL">XXXL</option>
+                          </select></span></span></div>
+                    <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                  </div>
+                </span>
+                <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col2 show_image show_option full_img new_ui" categories="non-categorized" pid="1002" aria-labelledby="label_43">
+                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                    <div class="p_col">
+                      <div class="p_checkbox"><input class="form-checkbox  form-product-input" type="checkbox" id="input_43_1002" name="q43_merch[][id]" data-inputname="q43_merch[][id]" readonly="" aria-label="Select Product: Sweatshirt" data-is-default-required="false" data-is-default-selected="false" value="1002" />
+                        <div class="checked"></div>
+                        <div class="select_border"></div>
+                      </div>
+                    </div>
+                    <div class="p_image">
+                      <div class="image_area form-product-image-with-options">
+                        <div style="position:absolute;width:100%;height:100%"><img loading="lazy" role="img" aria-label="Sweatshirt" alt="Sweatshirt Product Image" style="width:100%;height:100%;object-fit:contain" src="Stoic/4.png" /></div>
+                        <div class="image_zoom"></div>
+                      </div>
+                    </div>
+                    <div for="input_43_1002" class="form-product-container"><span data-wrapper-react="true">
+                        <div class="title_description"><span class="form-product-name" id="product-name-input_43_1002">Sweatshirt</span><span class="form-product-description" id="product-name-description-input_43_1002"></span></div><span class="form-product-details"><b><span data-wrapper-react="true"><span id="input_43_1002_price">195,000.00</span><span class="currency_abr">IDR</span></span></b></span>
+                      </span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_quantity_1002_0" style="min-height:13px">Quantity</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1002][item_0]" id="input_43_quantity_1002_0" aria-label="Select Quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                          </select></span></span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_custom_1002_1" style="min-height:13px">Color</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1002][item_1]" id="input_43_custom_1002_1" aria-label="Select Color">
+                            <option value="White">White</option>
+                            <option value="Black">Black</option>
+                            <option value="Green">Green</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Red">Red</option>
+                          </select></span></span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_custom_1002_2" style="min-height:13px">Sweatshirt Size</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1002][item_2]" id="input_43_custom_1002_2" aria-label="Select Sweatshirt Size">
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                            <option value="XXXL">XXXL</option>
+                          </select></span></span></div>
+                    <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                  </div>
+                </span>
+                <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col1 show_image show_option full_img new_ui" categories="non-categorized" pid="1003" aria-labelledby="label_43">
+                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                    <div class="p_col">
+                      <div class="p_checkbox"><input class="form-checkbox  form-product-input" type="checkbox" id="input_43_1003" name="q43_merch[][id]" data-inputname="q43_merch[][id]" readonly="" aria-label="Select Product: Hoodie" data-is-default-required="false" data-is-default-selected="false" value="1003" />
+                        <div class="checked"></div>
+                        <div class="select_border"></div>
+                      </div>
+                    </div>
+                    <div class="p_image">
+                      <div class="image_area form-product-image-with-options">
+                        <div style="position:absolute;width:100%;height:100%"><img loading="lazy" role="img" aria-label="Hoodie" alt="Hoodie Product Image" style="width:100%;height:100%;object-fit:contain" src="Stoic/3.png" /></div>
+                        <div class="image_zoom"></div>
+                      </div>
+                    </div>
+                    <div for="input_43_1003" class="form-product-container"><span data-wrapper-react="true">
+                        <div class="title_description"><span class="form-product-name" id="product-name-input_43_1003">Hoodie</span><span class="form-product-description" id="product-name-description-input_43_1003"></span></div><span class="form-product-details"><b><span data-wrapper-react="true"><span id="input_43_1003_price">225,000.00</span><span class="currency_abr">IDR</span></span></b></span>
+                      </span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_quantity_1003_0" style="min-height:13px">Quantity</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1003][item_0]" id="input_43_quantity_1003_0" aria-label="Select Quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                            <option value="51">51</option>
+                            <option value="52">52</option>
+                            <option value="53">53</option>
+                            <option value="54">54</option>
+                            <option value="55">55</option>
+                            <option value="56">56</option>
+                            <option value="57">57</option>
+                            <option value="58">58</option>
+                            <option value="59">59</option>
+                            <option value="60">60</option>
+                            <option value="61">61</option>
+                            <option value="62">62</option>
+                            <option value="63">63</option>
+                            <option value="64">64</option>
+                            <option value="65">65</option>
+                            <option value="66">66</option>
+                            <option value="67">67</option>
+                            <option value="68">68</option>
+                            <option value="69">69</option>
+                            <option value="70">70</option>
+                            <option value="71">71</option>
+                            <option value="72">72</option>
+                            <option value="73">73</option>
+                            <option value="74">74</option>
+                            <option value="75">75</option>
+                            <option value="76">76</option>
+                            <option value="77">77</option>
+                            <option value="78">78</option>
+                            <option value="79">79</option>
+                            <option value="80">80</option>
+                            <option value="81">81</option>
+                            <option value="82">82</option>
+                            <option value="83">83</option>
+                            <option value="84">84</option>
+                            <option value="85">85</option>
+                            <option value="86">86</option>
+                            <option value="87">87</option>
+                            <option value="88">88</option>
+                            <option value="89">89</option>
+                            <option value="90">90</option>
+                            <option value="91">91</option>
+                            <option value="92">92</option>
+                            <option value="93">93</option>
+                            <option value="94">94</option>
+                            <option value="95">95</option>
+                            <option value="96">96</option>
+                            <option value="97">97</option>
+                            <option value="98">98</option>
+                            <option value="99">99</option>
+                          </select></span></span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_custom_1003_1" style="min-height:13px">Color</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1003][item_1]" id="input_43_custom_1003_1" aria-label="Select Color">
+                            <option value="White">White</option>
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Green">Green</option>
+                            <option value="Yellow">Yellow</option>
+                          </select></span></span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_custom_1003_2" style="min-height:13px">Size</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1003][item_2]" id="input_43_custom_1003_2" aria-label="Select Size">
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                            <option value="XXXL">XXXL</option>
+                          </select></span></span></div>
+                    <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                  </div>
+                </span>
+                <div class="p_item_separator "></div><span class="form-product-item hover-product-item on_col2 show_image show_option full_img new_ui" categories="non-categorized" pid="1004" aria-labelledby="label_43">
+                  <div data-wrapper-react="true" class="form-product-item-detail new_ui">
+                    <div class="p_col">
+                      <div class="p_checkbox"><input class="form-checkbox  form-product-input" type="checkbox" id="input_43_1004" name="q43_merch[][id]" data-inputname="q43_merch[][id]" readonly="" aria-label="Select Product: ToteBag" data-is-default-required="false" data-is-default-selected="false" value="1004" />
+                        <div class="checked"></div>
+                        <div class="select_border"></div>
+                      </div>
+                    </div>
+                    <div class="p_image">
+                      <div class="image_area form-product-image-with-options">
+                        <div style="position:absolute;width:100%;height:100%"><img loading="lazy" role="img" aria-label="ToteBag" alt="ToteBag Product Image" style="width:100%;height:100%;object-fit:contain" src="Stoic/2.png" /></div>
+                        <div class="image_zoom"></div>
+                      </div>
+                    </div>
+                    <div for="input_43_1004" class="form-product-container"><span data-wrapper-react="true">
+                        <div class="title_description"><span class="form-product-name" id="product-name-input_43_1004">ToteBag</span><span class="form-product-description" id="product-name-description-input_43_1004"></span></div><span class="form-product-details"><b><span data-wrapper-react="true"><span id="input_43_1004_price">45,000.00</span><span class="currency_abr">IDR</span></span></b></span>
+                      </span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_quantity_1004_0" style="min-height:13px">Quantity</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1004][item_0]" id="input_43_quantity_1004_0" aria-label="Select Quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                          </select></span></span><span class="form-sub-label-container" style="vertical-align:top"><label class="form-sub-label" for="input_43_custom_1004_1" style="min-height:13px">Color</label><span class="select_cont"><select class="form-dropdown" name="q43_merch[special_1004][item_1]" id="input_43_custom_1004_1" aria-label="Select Color">
+                            <option value="White">White</option>
+                            <option value="Black">Black</option>
+                          </select></span></span></div>
+                    <div class="focus_action_button_container"><a class="btn-inline-product-delete" tabindex="0" role="button" aria-label="Delete Product"> </a><a class="btn-inline-product-settings" tabindex="0" role="button" aria-label="Product Settings"> </a></div>
+                  </div>
+                </span>
+                <div class="payment_footer new_ui ">
+                  <div class="total_area">
+                    <div class="form-payment-total">
+                      <div id="total-text">Total</div>
+                      <div class="form-payment-price"><span data-wrapper-react="true"><span id="payment_total">0.00</span><span class="currency_abr">IDR</span></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_fullname" id="id_2"><label class="form-label form-label-top" id="label_2" for="first_2" aria-hidden="false"> Full Name </label>
+        <div id="cid_2" class="form-input-wide" data-layout="full">
+          <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="first"><input type="text" id="first_2" name="q2_fullName2[first]" class="form-textbox" data-defaultvalue="" autoComplete="section-input_2 given-name" size="10" data-component="first" aria-labelledby="label_2 sublabel_2_first" value="" /><label class="form-sub-label" for="first_2" id="sublabel_2_first" style="min-height:13px">First Name</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="last"><input type="text" id="last_2" name="q2_fullName2[last]" class="form-textbox" data-defaultvalue="" autoComplete="section-input_2 family-name" size="15" data-component="last" aria-labelledby="label_2 sublabel_2_last" value="" /><label class="form-sub-label" for="last_2" id="sublabel_2_last" style="min-height:13px">Last Name</label></span></div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_email" id="id_3"><label class="form-label form-label-top" id="label_3" for="input_3" aria-hidden="false"> E-mail </label>
+        <div id="cid_3" class="form-input-wide" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="email" id="input_3" name="q3_email3" class="form-textbox validate[Email]" data-defaultvalue="" autoComplete="section-input_3 email" style="width:310px" size="310" placeholder="ex: myname@example.com" data-component="email" aria-labelledby="label_3 sublabel_input_3" value="" /><label class="form-sub-label" for="input_3" id="sublabel_input_3" style="min-height:13px">example@example.com</label></span> </div>
+      </li>
+      <li class="form-line" data-type="control_phone" id="id_5"><label class="form-label form-label-top" id="label_5" for="input_5_area" aria-hidden="false"> Contact Number </label>
+        <div id="cid_5" class="form-input-wide" data-layout="half">
+          <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode"><input type="tel" id="input_5_area" name="q5_contactNumber[area]" class="form-textbox" data-defaultvalue="" autoComplete="section-input_5 tel-area-code" data-component="areaCode" aria-labelledby="label_5 sublabel_5_area" value="" /><span class="phone-separate" aria-hidden="true"> -</span><label class="form-sub-label" for="input_5_area" id="sublabel_5_area" style="min-height:13px">Country Code</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone"><input type="tel" id="input_5_phone" name="q5_contactNumber[phone]" class="form-textbox" data-defaultvalue="" autoComplete="section-input_5 tel-local" data-component="phone" aria-labelledby="label_5 sublabel_5_phone" value="" /><label class="form-sub-label" for="input_5_phone" id="sublabel_5_phone" style="min-height:13px">Phone Number</label></span></div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_address" id="id_10"><label class="form-label form-label-top" id="label_10" for="input_10_addr_line1" aria-hidden="false"> Shipping Adress </label>
+        <div id="cid_10" class="form-input-wide" data-layout="full">
+          <div summary="" class="form-address-table jsTest-addressField">
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField"><span class="form-address-line form-address-street-line jsTest-address-lineField"><span class="form-sub-label-container" style="vertical-align:top"><input type="text" id="input_10_addr_line1" name="q10_shippingAdress[addr_line1]" class="form-textbox form-address-line" data-defaultvalue="" autoComplete="section-input_10 address-line1" data-component="address_line_1" aria-labelledby="label_10 sublabel_10_addr_line1" value="" /><label class="form-sub-label" for="input_10_addr_line1" id="sublabel_10_addr_line1" style="min-height:13px">Street Address</label></span></span></div>
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField"><span class="form-address-line form-address-street-line jsTest-address-lineField"><span class="form-sub-label-container" style="vertical-align:top"><input type="text" id="input_10_addr_line2" name="q10_shippingAdress[addr_line2]" class="form-textbox form-address-line" data-defaultvalue="" autoComplete="section-input_10 address-line2" data-component="address_line_2" aria-labelledby="label_10 sublabel_10_addr_line2" value="" /><label class="form-sub-label" for="input_10_addr_line2" id="sublabel_10_addr_line2" style="min-height:13px">Street Address Line 2</label></span></span></div>
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField"><span class="form-address-line form-address-city-line jsTest-address-lineField "><span class="form-sub-label-container" style="vertical-align:top"><input type="text" id="input_10_city" name="q10_shippingAdress[city]" class="form-textbox form-address-city" data-defaultvalue="" autoComplete="section-input_10 address-level2" data-component="city" aria-labelledby="label_10 sublabel_10_city" value="" /><label class="form-sub-label" for="input_10_city" id="sublabel_10_city" style="min-height:13px">City</label></span></span><span class="form-address-line form-address-state-line jsTest-address-lineField "><span class="form-sub-label-container" style="vertical-align:top"><input type="text" id="input_10_state" name="q10_shippingAdress[state]" class="form-textbox form-address-state" data-defaultvalue="" autoComplete="section-input_10 address-level1" data-component="state" aria-labelledby="label_10 sublabel_10_state" value="" /><label class="form-sub-label" for="input_10_state" id="sublabel_10_state" style="min-height:13px">State / Province</label></span></span></div>
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField"><span class="form-address-line form-address-zip-line jsTest-address-lineField "><span class="form-sub-label-container" style="vertical-align:top"><input type="text" id="input_10_postal" name="q10_shippingAdress[postal]" class="form-textbox form-address-postal" data-defaultvalue="" autoComplete="section-input_10 postal-code" data-component="zip" aria-labelledby="label_10 sublabel_10_postal" value="" /><label class="form-sub-label" for="input_10_postal" id="sublabel_10_postal" style="min-height:13px">Postal / Zip Code</label></span></span></div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_14"><label class="form-label form-label-top" id="label_14" for="input_14" aria-hidden="false"> Order Notes (Optional) </label>
+        <div id="cid_14" class="form-input-wide" data-layout="full"> <textarea id="input_14" class="form-textarea" name="q14_orderNotes" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_14"></textarea> </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_38">
+        <div id="cid_38" class="form-input-wide" data-layout="full">
+          <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField"><button id="input_38" type="submit" class="form-submit-button form-submit-button-green-400 submit-button jf-form-buttons jsTest-submitField legacy-submit" data-component="button" data-content="">Buy it Now!</button></div>
+        </div>
+      </li>
+      <li style="display:none">Should be Empty: <input type="text" name="website" value="" type="hidden" /></li>
+    </ul>
+  </div>
+  <script>
+    JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <script>
+    JotForm.poweredByText = "Powered by Jotform";
+  </script><input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="251323386294459" />
+  <script type="text/javascript">
+    var all_spc = document.querySelectorAll("form[id='251323386294459'] .si" + "mple" + "_spc");
+    for (var i = 0; i < all_spc.length; i++)
+    {
+      all_spc[i].value = "251323386294459-251323386294459";
+    }
+  </script>
+</form>
+<link id=color-scheme-style href="css/color-scheme.css" type="text/css" rel="stylesheet" /></body>
+</html><script type="text/javascript">JotForm.isNewSACL=true;</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("CustomForm");
+  const ENDPOINT = "https://orderform-api.vercel.app/submit";
+
+  // --- fungsi backup/restore ---
+  function backupFormData() {
+    const data = {};
+    form.querySelectorAll("[name]").forEach(el => {
+      if (el.type === "checkbox" || el.type === "radio") {
+        data[el.name] = data[el.name] || [];
+        if (el.checked) data[el.name].push(el.value);
+      } else {
+        data[el.name] = el.value;
+      }
+    });
+    sessionStorage.setItem("formBackup", JSON.stringify(data));
+  }
+  function restoreFormData() {
+    const raw = sessionStorage.getItem("formBackup");
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    form.querySelectorAll("[name]").forEach(el => {
+      const v = data[el.name];
+      if (v == null) return;
+      if (el.type === "checkbox" || el.type === "radio") {
+        el.checked = Array.isArray(v) && v.includes(el.value);
+      } else {
+        el.value = v;
+      }
+    });
+    sessionStorage.removeItem("formBackup");
+  }
+  restoreFormData();
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    // ambil dan trim field
+    const firstName = document.getElementById("first_2").value.trim();
+    const lastName  = document.getElementById("last_2").value.trim();
+    const email     = document.getElementById("input_3").value.trim();
+    const phone     = document.getElementById("input_5_phone").value.trim();
+    const city      = document.getElementById("input_10_city").value.trim();
+    const prods     = form.querySelectorAll("input[name='q43_merch[][id]']:checked");
+
+    // validasi 1: field wajib
+    if (!firstName || !lastName || !email || !phone || !city) {
+      backupFormData();
+      return swal("Oops!", "Harap lengkapi semua data wajib!", "warning")
+        .then(() => location.reload());
+    }
+    // validasi 2: produk
+    if (prods.length === 0) {
+      backupFormData();
+      return swal("Oops!", "Pilih setidaknya satu produk!", "warning")
+        .then(() => location.reload());
+    }
+
+    // konfirmasi kirim
+    swal({
+      title: "Yakin ingin memesan?",
+      text:  "Pastikan data sudah benar ya! Pesanan akan kami proses serta akan kami konfirmasi melalui pesan whatsapp yang tercantum. Setelah klik Kirim harap tunggu 6 detik agar sistem memproses pesanan",
+      icon:  "info",
+      buttons: ["Batal", "Kirim"],
+      dangerMode: false,
+    })
+    .then((willSubmit) => {
+      if (!willSubmit) {
+        // batal → reload tapi data tetap ada
+        backupFormData();
+        return location.reload();
+      }
+
+      // siapkan URL-encoded body
+      // … di dalam submit handler, setelah user konfirmasi …
+
+        // ambil FormData
+        const formData = new FormData(form);
+
+        // buat URLSearchParams dan append semua entry (jangan merge)
+        const params = new URLSearchParams();
+        for (let [k, v] of formData.entries()) {
+          params.append(k, v);
+        }
+
+        // kirim
+        fetch(ENDPOINT, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
+          },
+          body: params.toString()
+        })
+        .then(res => {
+          sessionStorage.removeItem("formBackup");
+          if (res.ok) {
+            swal("Berhasil!", "Pesanan kamu sudah dikirim 🎉", "success")
+              .then(() => {
+                form.reset();
+                location.reload();
+              });
+          } else {
+            swal("Gagal!", "Terjadi kesalahan saat mengirim.", "error");
+          }
+        })
+        .catch(err => {
+          console.error(err);
+          sessionStorage.removeItem("formBackup");
+          swal("Gagal!", "Terjadi kesalahan jaringan.", "error");
+        });
+
+    });
+  });
+});
+</script>
+
+
+
+
